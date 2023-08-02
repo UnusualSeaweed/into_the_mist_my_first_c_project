@@ -1,0 +1,2 @@
+./gitm < ./tests/term.in
+diff -w ./tests/term.out <(./gitm < ./tests/term.in)
